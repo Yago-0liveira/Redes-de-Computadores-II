@@ -19,6 +19,8 @@ Repositório com todos os projetos criados na disciplina de "Redes de Computador
   
 ## Execução
 
+Alguns dados importantes da execução aparecem no prompt de comando.
+
 # redes2_trabalho04_202110839
 - Camada de Transporte/Aplicação - Aplicativo de Instant Messaging
 Este código implementa um aplicativo de Instant Messaging que opera nas Camadas de Transporte e Aplicação do Modelo OSI. O aplicativo permite a troca de mensagens em tempo real entre usuários, utilizando protocolos de transporte para garantir a entrega confiável e ordenada dos dados. A simulação abrange a conexão entre clientes, gerenciamento de sessões, e envio/recebimento de mensagens, oferecendo uma visão prática da comunicação em rede e do funcionamento de aplicações de mensagens instantâneas.
