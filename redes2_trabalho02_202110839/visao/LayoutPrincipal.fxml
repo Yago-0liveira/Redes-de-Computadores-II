@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="acPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controle.PrincipalController">
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@imagens/telaPrincipal.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="textTransmissor" layoutX="146.0" layoutY="186.0" prefHeight="25.0" prefWidth="40.0" stylesheets="@Style.css" />
+      <TextField fx:id="textReceptor" layoutX="110.0" layoutY="230.0" prefHeight="25.0" prefWidth="40.0" stylesheets="@Style.css" />
+      <ImageView fx:id="rot1" fitHeight="35.0" fitWidth="35.0" layoutX="432.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="rot2" fitHeight="35.0" fitWidth="35.0" layoutX="663.0" layoutY="202.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="rot4" fitHeight="35.0" fitWidth="35.0" layoutX="294.0" layoutY="202.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="rot5" fitHeight="35.0" fitWidth="35.0" layoutX="625.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/5.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="rot6" fitHeight="35.0" fitWidth="35.0" layoutX="627.0" layoutY="379.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/6.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="rot7" fitHeight="35.0" fitWidth="35.0" layoutX="342.0" layoutY="379.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/7.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="rot8" fitHeight="35.0" fitWidth="35.0" layoutX="342.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/8.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="rot9" fitHeight="35.0" fitWidth="35.0" layoutX="532.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/9.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="rot11" fitHeight="35.0" fitWidth="35.0" layoutX="299.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/11.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="rot12" fitHeight="35.0" fitWidth="35.0" layoutX="665.0" layoutY="297.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/12.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="rot3" fitHeight="35.0" fitWidth="35.0" layoutX="432.0" layoutY="421.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/3.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnComecar" layoutX="38.0" layoutY="302.0" mnemonicParsing="false" onMouseClicked="#btComecar" prefHeight="60.0" prefWidth="118.0" style="-fx-background-radius: 15;" stylesheets="@Style.css" text="Começar" textFill="#110f0f">
+         <font>
+            <Font name="Courier New Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <ImageView fx:id="rot10" fitHeight="35.0" fitWidth="35.0" layoutX="532.0" layoutY="421.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/10.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnRestart" layoutX="38.0" layoutY="391.0" mnemonicParsing="false" onMouseClicked="#btnRestart" prefHeight="60.0" prefWidth="118.0" style="-fx-background-radius: 15;" stylesheets="@Style.css" text="Reiniciar" textFill="#110f0f">
+         <font>
+            <Font name="Courier New Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

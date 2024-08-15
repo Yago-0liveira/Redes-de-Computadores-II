@@ -1,0 +1,29 @@
+#btnComecar {
+   -fx-background-color: #f0e68c; 
+}
+
+#btnComecar:hover {
+    -fx-background-color: #ff7f50;
+   
+}
+
+#btnRestart {
+    -fx-background-color: #f0e68c; 
+}
+
+#btnRestart:hover {
+    -fx-background-color: #ff7f50;
+   
+}
+
+#textTransmissor, #textReceptor {
+    -fx-background-color: #f0e68c
+}
+
+#textTransmissor :hover{
+    -fx-background-color: #ff7f50;
+}
+
+#textReceptor :hover{
+    -fx-background-color: #ff7f50;
+}

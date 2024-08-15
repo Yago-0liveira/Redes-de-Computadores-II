@@ -1,0 +1,131 @@
+#botaoComecar {
+   -fx-background-color: #2b2b2b; 
+   -fx-text-fill: white;
+   -fx-font-family: "impact"; /* Define a familia da fonte */
+   -fx-font-size: 20px;
+   -fx-background-radius: 15px;
+   -fx-effect: dropshadow(gaussian, black, 3, 0.9, 0, 0); /* Adiciona um contorno ao texto */
+   
+}
+
+#botaoComecar:hover {
+    -fx-background-color: #aaaaaa;
+   
+}
+
+#textNome {
+   -fx-background-color:  #0a74cc;
+   -fx-text-fill: white;
+   -fx-font-family: "impact"; /* Define a familia da fonte */
+   -fx-font-size: 20px;
+   -fx-background-radius: 15px;
+}
+
+#textEndereco {
+   -fx-background-color:  #0a74cc;
+   -fx-text-fill: white;
+   -fx-font-family: "impact"; /* Define a familia da fonte */
+   -fx-font-size: 20px;
+   -fx-background-radius: 15px;
+}
+
+#textPorta {
+   -fx-background-color:  #0a74cc;
+   -fx-text-fill: white;
+   -fx-font-family: "impact"; /* Define a familia da fonte */
+   -fx-font-size: 20px;
+   -fx-background-radius: 15px;
+}
+
+#textEntrar {
+   -fx-background-color:  #0a74cc;
+   -fx-text-fill: white;
+   -fx-font-family: "impact"; /* Define a familia da fonte */
+   -fx-font-size: 20px;
+   -fx-background-radius: 15px;
+}
+
+#textDigitar {
+   -fx-background-color:  #aaaaaa;
+   -fx-text-fill: white;
+   -fx-font-family: "impact"; /* Define a familia da fonte */
+   -fx-font-size: 15px;
+   -fx-background-radius: 15px;
+
+}
+
+#textPesquisa {
+   -fx-background-color:  #555555;
+   -fx-text-fill: white;
+   -fx-font-family: "impact"; /* Define a familia da fonte */
+   -fx-font-size: 15px;
+   -fx-background-radius: 15px;
+   
+
+}
+
+#NomeGrupo {
+   -fx-text-fill: white;
+   -fx-font-family: "impact"; /* Define a familia da fonte */
+   -fx-font-size: 25px;
+   -fx-background-radius: 15px;
+   -fx-effect: dropshadow(gaussian, black, 3, 0.9, 0, 0);
+   -fx-alignment: center;
+   -fx-text-alignment: center;
+}
+
+#scroolMensagens {
+   -fx-background: transparent; /* Torna a area de fundo principal transparente */
+   -fx-background-color: #555555
+}
+
+
+#ScrollGrupos{
+   -fx-background: transparent; /* Torna a area de fundo principal transparente */
+   -fx-background-color: #aaaaaa
+}
+#btnEnviarMensagem{
+   fx-text-fill: white;
+   -fx-font-family: "impact"; /* Define a familia da fonte */
+   -fx-font-size: 15px;
+   -fx-background-radius: 15px;
+   -fx-effect: dropshadow(gaussian, black, 3, 0.9, 0, 0);
+}
+
+#btnSair{
+   fx-text-fill: white;
+   -fx-font-family: "impact"; /* Define a familia da fonte */
+   -fx-font-size: 15px;
+   -fx-background-radius: 15px;
+   -fx-effect: dropshadow(gaussian, black, 3, 0.9, 0, 0);
+}
+
+#btnLupa{
+   -fx-font-family: "impact"; /* Define a familia da fonte */
+   -fx-font-size: 15px;
+   -fx-background-radius: 15px;
+   -fx-effect: dropshadow(gaussian, black, 3, 0.9, 0, 0);
+}
+
+.selected-group {
+   -fx-background-color: #0a74cc; /* Cor de fundo azul */
+   -fx-text-fill: white;          /* Texto em branco */
+}
+
+#txtParticipantes{
+   -fx-font-family: "impact"; /* Define a famlia da fonte */
+   -fx-font-size: 10px;
+   -fx-background-radius: 15px;
+   -fx-effect: dropshadow(gaussian, black, 3, 0.9, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
